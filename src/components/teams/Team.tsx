@@ -1,16 +1,17 @@
-import asiaman from "../assets/asiaman.jpg"
-import caucasian from "../assets/caucasian.jpg"
-import sara from "../assets/sara.jpg"
+import asiaman from "../../assets/asiaman.jpg"
+
+import caucasian from "../../assets/caucasian.jpg"
+import sara from "../../assets/sara.jpg"
 import { CiStar } from "react-icons/ci";
-import sparta from "../assets/sparta.png";
-import allianz from "../assets/allianzy.png"
-import rey from "../assets/reys.png";
-import fuda from "../assets/fuda.png"
+import sparta from "../../assets/sparta.png";
+import allianz from "../../assets/allianzy.png"
+import rey from "../../assets/reys.png";
+import fuda from "../../assets/fuda.png"
 
 export default function Team() {
   return (
     <main className='w-full font-kanit text-white'>
-       <div className='px-32 py-10 flex gap-10'>
+       <div className='px-6 lg:md:px-32 py-10 flex flex-col lg:md:flex-row gap-10'>
 
           <div>
             <h1 className='text-gray-400 '>T E A M S</h1>
@@ -19,9 +20,9 @@ export default function Team() {
             </p>
             <p className=''>Professionally certified teams handle our projects,  <br />ensuring quality and innovation in every endeavor.</p>
             <div className="flex relative py-10">
-                <img src={asiaman} alt="asia" className="absolute w-16 h-16 rounded-full items-center justify-center  "/>
-                <img src={caucasian} alt="caucasian" className="absolute w-16 rounded-full items-center justify-center left-14" />
-                <img src={sara} alt="sara" className="absolute w-16 h-16 rounded-full  items-center justify-center left-24 "/>
+                <img  data-aos = "fade-right" src={asiaman} alt="asia" className="absolute w-16 h-16 rounded-full items-center justify-center hover:transform rotate-45 duration-105"/>
+                <img  data-aos = "fade-left" src={caucasian} alt="caucasian" className="absolute w-16 rounded-full items-center justify-center left-14" />
+                <img  data-aos = "fade-right" src={sara} alt="sara" className="absolute w-16 h-16 rounded-full  items-center justify-center left-24 "/>
             </div>
 
             <div className="py-10">
@@ -33,10 +34,10 @@ export default function Team() {
 
           <div>
              <div className="grid grid-cols-2 gap-4">
-                <img src={asiaman} alt="asian" />
-                <img src={sara} alt="caucasian" />
-                <div className="flex items-center justify-center"><button className="border border-gray-400 py-2 px-8 h-12 rounded-full">LEARN TEAMS</button></div>
-                <img src={caucasian} alt="saa" />
+                <img  data-aos = "fade-right" src={asiaman} alt="asian" />
+                <img  data-aos = "fade-left" src={sara} alt="caucasian" />
+                <div className="flex items-center justify-center"><button className="border border-gray-400 py-2 px-6 lg:md:px-8 h-12 rounded-full">LEARN TEAMS</button></div>
+                <img  data-aos = "fade-right" src={caucasian} alt="saa" />
              </div>
           </div>
 

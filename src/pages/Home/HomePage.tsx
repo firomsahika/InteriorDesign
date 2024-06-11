@@ -4,7 +4,7 @@ import AboutPage from "../About/AboutPage"
 
 export default function HomePage() {
   return (
-    <div className="font-kanit bg-herobg bg-cover w-full h-screen  text-white">
+    <div className="font-kanit bg-herobg md:lg:bg-cover bg-center w-full h-screen  text-white">
       <Nav />
       <Hero />
       

@@ -2,11 +2,11 @@ import { IoIosArrowForward } from "react-icons/io";
 export default function Designs() {
   return (
     <main>
-      <div className="flex flex-col gap-10 py-20 px-32">
-        <div className="flex gap-80  ">
-          <p className="text-4xl">01. Interior design</p>
-          <div className="flex flex-col gap-4">
-            <p className="text-[#6D7D7D]">
+      <div className="flex flex-col gap-10 py-20 lg:md:px-32 px-6">
+        <div className="flex flex-col md:lg:flex-row gap-6 lg:md:gap-80  ">
+          <p className="text-4xl text-nowrap">01. Interior design</p>
+          <div className="flex flex-col items-start  gap-4">
+            <p className="text-[#6D7D7D] ">
               At our firm, we specialize in transforming spaces into stylish,{" "}
               <br />
               functional, and personalized environments.
@@ -19,7 +19,7 @@ export default function Designs() {
         <hr className="border-sm border-[#6D7D7D]"/>
         
 
-        <div className="flex gap-72">
+        <div className="flex  flex-col md:lg:flex-row gap-6 lg:md:gap-72">
           <p className="text-4xl">02. Furniture design</p>
           <div className="flex-flex-col gap-4">
             <p className="text-[#6D7D7D]">
@@ -35,7 +35,7 @@ export default function Designs() {
         </div>
         <hr className="border-sm border-[#6D7D7D]"/>
 
-        <div className="flex  gap-64">
+        <div className="flex  flex-col md:lg:flex-row gap-6 lg:md:gap-64">
           <p className="text-4xl text-nowrap">03. Landscape design</p>
           <div className="flex flex-col">
             <p className="text-[#6D7D7D]">
