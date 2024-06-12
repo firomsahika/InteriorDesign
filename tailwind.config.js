@@ -7,7 +7,7 @@ export default {
         'kanit': ['Kanit'],
       },
       backgroundImage: {
-        'herobg': "url('./src/assets/herobg.png')",
+        'herobg': "url('/herobg.png')",
       }
     },
   },
