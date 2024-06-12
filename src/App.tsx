@@ -6,7 +6,7 @@ import ServicePage from "./pages/Service/ServicePage";
 import BlogPage from "./pages/Blog/BlogPage";
 import FooterPage from "./pages/Footer/FooterPage";
 import Nav from "./components/Hero/Nav";
-import Footer from "./components/Footer/Footer";
+
 
 export default function App() {
   return (

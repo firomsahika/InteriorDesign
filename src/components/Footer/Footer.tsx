@@ -3,7 +3,7 @@ import { FaTwitter } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import CopyWright from "../copywright/CopyWright";
-import { Link } from "react-router-dom";
+
 
 export default function Footer() {
   return (
