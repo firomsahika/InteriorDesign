@@ -1,8 +1,13 @@
 import { TypeAnimation } from 'react-type-animation';
+import bg from "../../../public/herobg.png"
+
 
 export default function Hero() {
   return (
-    <main className="w-full flex items-center justify-center px-4 lg:md:px-0 bg-herobg font-kanit md:lg:bg-cover bg-center">
+    <main className="w-full flex items-center justify-center px-4 lg:md:px-0  font-kanit md:lg:bg-cover bg-center"
+    style = {{ backgroundImage: `url(${bg})` }}
+
+    >
       <div className="flex items-center justify-center">
         <div className="py-60 lg:py-50 w-full text-center">
           <div className="relative">
