@@ -18,24 +18,24 @@ export default function AboutInterior() {
   return (
     <main className='flex items-center'>
     <div className='lg:md:px-32 px-6 py-20 '>
-       <div className='flex flex-col'>
+       <div className='flex flex-col '>
          <p className='text-gray-400 '>A B O U T</p>
-         <p className='text-5xl py-4 flex max-w-sm md:lg:max-w-0 '>We are the best interior design studio</p>
-         <p className="max-w-sm lg:md:max-w-0 ">At Interior Design Studio, we believe in the power of transformative spaces. <br /> Our passion lies in crafting environments that seamlessly blend functionality with beauty.<br /> With a keen eye for detail and a commitment to excellence, we bring your visions to life.</p>
+         <p className='text-5xl py-4  '>We are the best interior design studio</p>
+         <p className=" ">At Interior Design Studio, we believe in the power of transformative spaces. <br /> Our passion lies in crafting environments that seamlessly blend functionality with beauty.<br /> With a keen eye for detail and a commitment to excellence, we bring your visions to life.</p>
        </div>
       
-         <div className="flex lg:md:flex-row flex-col gap-4 py-14">
+         <div className="flex lg:md:flex-row flex-col gap-20 py-14">
 
             <div className="flex md:lg:flex-row gap-4">
-              <img data-aos="fade-right" src={about1} alt="about1" className="w-40"/>
-              <img data-aos="fade-left" src={about2} alt="about2" className="w-40"/>
+              <img data-aos="fade-right" src={about1} alt="about1" className="w-40 lg:md:w-64"/>
+              <img data-aos="fade-left" src={about2} alt="about2" className="w-40  lg:md:w-64"/>
             </div>
             
-            <div className="flex flex-col md:lg:flex-row gap-20 ">
-               <div className="flex flex-col md:lg:flex-row  gap-20">
+            <div className="flex flex-col  gap-20 ">
+               <div className="flex flex-col lg:md:flex-row  gap-20">
                   <img data-aos="fade-up" src={about3} alt="about3" className="rounded-tr-[25%] w-60" />
                   <div className="">
-                  <button className="border border-gray-400 px-6 py-2 rounded-md ">LEARN ABOUT</button>
+                  <button className="border border-gray-400 px-6 py-2 lg:md:mt-40 rounded-md ">LEARN ABOUT</button>
                   </div>
                </div>
 
